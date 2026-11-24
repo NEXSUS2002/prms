@@ -1,0 +1,362 @@
+[
+  {
+    "id": "aff_0001",
+    "user_id": "usr_dr_adebayo",
+    "hospital_id": "hosp_a",
+    "department_id": "dep_a_general_medicine",
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0002",
+    "user_id": "usr_dr_okafor",
+    "hospital_id": "hosp_a",
+    "department_id": "dep_a_emergency_medicine",
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0003",
+    "user_id": "usr_dr_bello",
+    "hospital_id": "hosp_b",
+    "department_id": "dep_b_internal_medicine",
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0004",
+    "user_id": "usr_dr_unverified",
+    "hospital_id": "hosp_b",
+    "department_id": "dep_b_general_medicine",
+    "position": null,
+    "is_verified_on_chain": false,
+    "verified_tx": null,
+    "status": "PENDING_VERIFICATION"
+  },
+  {
+    "id": "aff_0005",
+    "user_id": "usr_nurse_ojo",
+    "hospital_id": "hosp_a",
+    "department_id": "dep_a_medical_ward",
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0006",
+    "user_id": "usr_nurse_danjuma",
+    "hospital_id": "hosp_b",
+    "department_id": "dep_b_emergency_ward",
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0007",
+    "user_id": "usr_lab_haem",
+    "hospital_id": "hosp_a",
+    "department_id": "dep_a_haematology",
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0008",
+    "user_id": "usr_lab_rad",
+    "hospital_id": "hosp_a",
+    "department_id": "dep_a_radiology",
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0009",
+    "user_id": "usr_dr_umeh",
+    "hospital_id": "hosp_a",
+    "department_id": "dep_a_paediatrics",
+    "position": null,
+    "is_verified_on_chain": false,
+    "verified_tx": null,
+    "status": "PENDING_VERIFICATION"
+  },
+  {
+    "id": "aff_0010",
+    "user_id": "usr_dr_c",
+    "hospital_id": "hosp_c",
+    "department_id": "dep_c_internal_medicine",
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0011",
+    "user_id": "usr_nurse_c",
+    "hospital_id": "hosp_c",
+    "department_id": "dep_c_medical_ward",
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0012",
+    "user_id": "usr_lab_c",
+    "hospital_id": "hosp_c",
+    "department_id": "dep_c_haematology",
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0013",
+    "user_id": "usr_dr_d",
+    "hospital_id": "hosp_d",
+    "department_id": "dep_d_paediatrics",
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0014",
+    "user_id": "usr_nurse_d",
+    "hospital_id": "hosp_d",
+    "department_id": "dep_d_childrens_ward",
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0015",
+    "user_id": "usr_lab_d",
+    "hospital_id": "hosp_d",
+    "department_id": "dep_d_haematology",
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0016",
+    "user_id": "usr_dr_e",
+    "hospital_id": "hosp_e",
+    "department_id": "dep_e_surgery",
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0017",
+    "user_id": "usr_nurse_e",
+    "hospital_id": "hosp_e",
+    "department_id": "dep_e_surgical_ward",
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0018",
+    "user_id": "usr_lab_e",
+    "hospital_id": "hosp_e",
+    "department_id": "dep_e_radiology",
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0019",
+    "user_id": "usr_dr_f",
+    "hospital_id": "hosp_f",
+    "department_id": "dep_f_general_medicine",
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0020",
+    "user_id": "usr_nurse_f",
+    "hospital_id": "hosp_f",
+    "department_id": "dep_f_medical_ward",
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0021",
+    "user_id": "usr_lab_f",
+    "hospital_id": "hosp_f",
+    "department_id": "dep_f_haematology",
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0022",
+    "user_id": "usr_dr_g",
+    "hospital_id": "hosp_g",
+    "department_id": "dep_g_obstetrics_gynaecology",
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0023",
+    "user_id": "usr_nurse_g",
+    "hospital_id": "hosp_g",
+    "department_id": "dep_g_maternity_ward",
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0024",
+    "user_id": "usr_lab_g",
+    "hospital_id": "hosp_g",
+    "department_id": "dep_g_haematology",
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0025",
+    "user_id": "usr_dr_h",
+    "hospital_id": "hosp_h",
+    "department_id": "dep_h_general_medicine",
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0026",
+    "user_id": "usr_nurse_h",
+    "hospital_id": "hosp_h",
+    "department_id": "dep_h_medical_ward",
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0027",
+    "user_id": "usr_lab_h",
+    "hospital_id": "hosp_h",
+    "department_id": "dep_h_radiology",
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0028",
+    "user_id": "usr_admin_a",
+    "hospital_id": "hosp_a",
+    "department_id": null,
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0029",
+    "user_id": "usr_admin_b",
+    "hospital_id": "hosp_b",
+    "department_id": null,
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0030",
+    "user_id": "usr_admin_c",
+    "hospital_id": "hosp_c",
+    "department_id": null,
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0031",
+    "user_id": "usr_admin_d",
+    "hospital_id": "hosp_d",
+    "department_id": null,
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0032",
+    "user_id": "usr_admin_e",
+    "hospital_id": "hosp_e",
+    "department_id": null,
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0033",
+    "user_id": "usr_admin_f",
+    "hospital_id": "hosp_f",
+    "department_id": null,
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0034",
+    "user_id": "usr_admin_g",
+    "hospital_id": "hosp_g",
+    "department_id": null,
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0035",
+    "user_id": "usr_admin_h",
+    "hospital_id": "hosp_h",
+    "department_id": null,
+    "position": null,
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "aff_0036",
+    "user_id": "usr_dr_bello",
+    "hospital_id": "hosp_a",
+    "department_id": "dep_a_internal_medicine",
+    "position": "Visiting consultant",
+    "is_verified_on_chain": true,
+    "verified_tx": null,
+    "status": "ACTIVE"
+  }
+]

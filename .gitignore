@@ -1,0 +1,16 @@
+node_modules
+.output
+.nitro
+.tanstack
+dist
+.env
+.data
+wallets.local.json
+deployments/local.json
+artifacts
+cache
+*.log
+.vercel
+.env.*
+!.env.example
+wallets.*.json

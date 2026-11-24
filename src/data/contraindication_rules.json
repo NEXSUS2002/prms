@@ -1,0 +1,349 @@
+{
+  "version": "1.0",
+  "primary_source": "Nigeria Standard Treatment Guidelines, 3rd ed. (Federal Ministry of Health, 2022)",
+  "rules": [
+    {
+      "id": "CR01",
+      "type": "DRUG_DIAGNOSIS_CONFLICT",
+      "drugs": [
+        "propranolol",
+        "atenolol",
+        "bisoprolol",
+        "carvedilol"
+      ],
+      "diagnoses": [
+        "asthma"
+      ],
+      "action": "BLOCK",
+      "reason": "Beta-blockers can precipitate severe bronchospasm in patients with asthma.",
+      "source": {
+        "document": "Nigeria Standard Treatment Guidelines, 3rd ed. (Federal Ministry of Health, 2022)",
+        "printed_page": 18,
+        "statement": "Do not use beta blockers in asthmatics and heart failure"
+      }
+    },
+    {
+      "id": "CR02",
+      "type": "DRUG_DIAGNOSIS_CONFLICT",
+      "drugs": [
+        "timolol"
+      ],
+      "diagnoses": [
+        "asthma",
+        "heart_block"
+      ],
+      "action": "BLOCK",
+      "reason": "Timolol eye drops are absorbed systemically and are contraindicated in asthma and heart block.",
+      "source": {
+        "document": "Nigeria Standard Treatment Guidelines, 3rd ed. (Federal Ministry of Health, 2022)",
+        "printed_page": 123,
+        "statement": "Timoptol is contraindicated in Asthmatics and patients with heart block"
+      }
+    },
+    {
+      "id": "CR03",
+      "type": "DRUG_DIAGNOSIS_CONFLICT",
+      "drugs": [
+        "acetylsalicylic_acid",
+        "ibuprofen",
+        "diclofenac",
+        "naproxen"
+      ],
+      "diagnoses": [
+        "peptic_ulcer_disease"
+      ],
+      "action": "BLOCK",
+      "reason": "NSAIDs cause gastrointestinal bleeding and must not be given in peptic ulcer disease.",
+      "source": {
+        "document": "Nigeria Standard Treatment Guidelines, 3rd ed. (Federal Ministry of Health, 2022)",
+        "printed_page": 71,
+        "statement": "Aspirin and other NSAIDs ... Do not prescribe for patients with peptic ulcer disease"
+      }
+    },
+    {
+      "id": "CR04",
+      "type": "DRUG_DIAGNOSIS_CONFLICT",
+      "drugs": [
+        "lisinopril",
+        "enalapril",
+        "losartan",
+        "valsartan"
+      ],
+      "diagnoses": [
+        "pregnancy"
+      ],
+      "action": "BLOCK",
+      "reason": "ACE inhibitors and ARBs are teratogenic.",
+      "source": {
+        "document": "Nigeria Standard Treatment Guidelines, 3rd ed. (Federal Ministry of Health, 2022)",
+        "printed_page": 18,
+        "statement": "ACEI and ARB are teratogenic, contraindicated in pregnancy"
+      }
+    },
+    {
+      "id": "CR05",
+      "type": "DRUG_DIAGNOSIS_CONFLICT",
+      "drugs": [
+        "warfarin"
+      ],
+      "diagnoses": [
+        "pregnancy"
+      ],
+      "action": "BLOCK",
+      "reason": "Warfarin is teratogenic; heparin is the safer anticoagulant in pregnancy.",
+      "source": {
+        "document": "Nigeria Standard Treatment Guidelines, 3rd ed. (Federal Ministry of Health, 2022)",
+        "printed_page": 432,
+        "statement": "Heparin safer in pregnancy; warfarin is teratogenic"
+      }
+    },
+    {
+      "id": "CR06",
+      "type": "DRUG_DIAGNOSIS_CONFLICT",
+      "drugs": [
+        "sodium_valproate"
+      ],
+      "diagnoses": [
+        "pregnancy"
+      ],
+      "action": "BLOCK",
+      "reason": "Valproate carries a risk of spina bifida in the foetus.",
+      "source": {
+        "document": "Nigeria Standard Treatment Guidelines, 3rd ed. (Federal Ministry of Health, 2022)",
+        "printed_page": 45,
+        "statement": "Valproate is contraindicated in pregnant women because of risk of spina bifida"
+      }
+    },
+    {
+      "id": "CR07",
+      "type": "DRUG_DIAGNOSIS_CONFLICT",
+      "drugs": [
+        "metronidazole"
+      ],
+      "diagnoses": [
+        "pregnancy"
+      ],
+      "action": "BLOCK",
+      "reason": "Metronidazole is contraindicated in pregnancy.",
+      "source": {
+        "document": "Nigeria Standard Treatment Guidelines, 3rd ed. (Federal Ministry of Health, 2022)",
+        "printed_page": 69,
+        "statement": "Metronidazole is contraindicated in pregnancy"
+      }
+    },
+    {
+      "id": "CR08",
+      "type": "DRUG_DIAGNOSIS_CONFLICT",
+      "drugs": [
+        "tetracycline",
+        "doxycycline"
+      ],
+      "diagnoses": [
+        "pregnancy"
+      ],
+      "action": "BLOCK",
+      "reason": "Tetracyclines deposit in growing bone and teeth of the foetus.",
+      "source": {
+        "document": "Nigeria Standard Treatment Guidelines, 3rd ed. (Federal Ministry of Health, 2022)",
+        "printed_page": 376,
+        "statement": "Tetracyclines, and doxycycline are contraindicated in pregnancy and in children less than 12 years"
+      }
+    },
+    {
+      "id": "CR09",
+      "type": "DRUG_DIAGNOSIS_CONFLICT",
+      "drugs": [
+        "ciprofloxacin"
+      ],
+      "diagnoses": [
+        "pregnancy"
+      ],
+      "action": "BLOCK",
+      "reason": "Ciprofloxacin is contraindicated in pregnancy.",
+      "source": {
+        "document": "Nigeria Standard Treatment Guidelines, 3rd ed. (Federal Ministry of Health, 2022)",
+        "printed_page": 336,
+        "statement": "Ciprofloxacin is contraindicated in growing adolescents and children below 12 years; also contraindicated in pregnancy"
+      }
+    },
+    {
+      "id": "CR10",
+      "type": "DRUG_DIAGNOSIS_CONFLICT",
+      "drugs": [
+        "methotrexate"
+      ],
+      "diagnoses": [
+        "pregnancy"
+      ],
+      "action": "BLOCK",
+      "reason": "Methotrexate is contraindicated in pregnancy and breastfeeding.",
+      "source": {
+        "document": "Nigeria Standard Treatment Guidelines, 3rd ed. (Federal Ministry of Health, 2022)",
+        "printed_page": 363,
+        "statement": "Methotrexate: ... Contraindicated in pregnancy and breast feeding"
+      }
+    },
+    {
+      "id": "CR11",
+      "type": "DRUG_DIAGNOSIS_CONFLICT",
+      "drugs": [
+        "metformin",
+        "glibenclamide"
+      ],
+      "diagnoses": [
+        "chronic_kidney_disease",
+        "chronic_liver_disease"
+      ],
+      "action": "BLOCK",
+      "reason": "Metformin and long-acting sulphonylureas must be avoided in poor kidney or liver function.",
+      "source": {
+        "document": "Nigeria Standard Treatment Guidelines, 3rd ed. (Federal Ministry of Health, 2022)",
+        "printed_page": 104,
+        "statement": "Avoid metformin and long-acting sulphonylureas such as glibenclamide in individuals with poor kidney and liver function"
+      }
+    },
+    {
+      "id": "CR12",
+      "type": "DRUG_DIAGNOSIS_CONFLICT",
+      "drugs": [
+        "tetracycline"
+      ],
+      "diagnoses": [
+        "chronic_kidney_disease"
+      ],
+      "action": "BLOCK",
+      "reason": "Tetracyclines (except doxycycline) may worsen renal failure.",
+      "source": {
+        "document": "Nigeria Standard Treatment Guidelines, 3rd ed. (Federal Ministry of Health, 2022)",
+        "printed_page": 164,
+        "statement": "With the exception of doxycycline, tetracyclines may exacerbate renal failure and should not be given to patients with kidney disease"
+      }
+    },
+    {
+      "id": "CR13",
+      "type": "DRUG_DIAGNOSIS_CONFLICT",
+      "drugs": [
+        "trihexyphenidyl"
+      ],
+      "diagnoses": [
+        "glaucoma",
+        "benign_prostatic_hyperplasia"
+      ],
+      "action": "BLOCK",
+      "reason": "Anticholinergic drugs are contraindicated in glaucoma and prostatic enlargement.",
+      "source": {
+        "document": "Nigeria Standard Treatment Guidelines, 3rd ed. (Federal Ministry of Health, 2022)",
+        "printed_page": 42,
+        "statement": "Anticholinergic drugs ... Their use is contraindicated in the presence of glaucoma and prostatic enlargement"
+      }
+    },
+    {
+      "id": "CR14",
+      "type": "DRUG_DIAGNOSIS_CONFLICT",
+      "drugs": [
+        "acetazolamide"
+      ],
+      "diagnoses": [
+        "sickle_cell_disease"
+      ],
+      "action": "BLOCK",
+      "reason": "Acetazolamide is contraindicated in sickle cell disease.",
+      "source": {
+        "document": "Nigeria Standard Treatment Guidelines, 3rd ed. (Federal Ministry of Health, 2022)",
+        "printed_page": 123,
+        "statement": "Acetazolamide is contraindicated in patients with pre-existing systemic acidosis, patients with sickle cell disease and allergy to sulphonamides"
+      }
+    },
+    {
+      "id": "CR15",
+      "type": "DRUG_DIAGNOSIS_CONFLICT",
+      "drugs": [
+        "efavirenz"
+      ],
+      "diagnoses": [
+        "psychotic_disorder"
+      ],
+      "action": "BLOCK",
+      "reason": "Efavirenz causes neuropsychiatric effects and is contraindicated where psychiatric illness already exists.",
+      "source": {
+        "document": "Nigeria Standard Treatment Guidelines, 3rd ed. (Federal Ministry of Health, 2022)",
+        "printed_page": 237,
+        "statement": "EFV is contraindicated in patients who already have psychiatric manifestations"
+      }
+    },
+    {
+      "id": "CR16",
+      "type": "DRUG_DRUG_CONFLICT",
+      "drugs": [
+        "lisinopril",
+        "enalapril"
+      ],
+      "conflicts_with": [
+        "losartan",
+        "valsartan"
+      ],
+      "action": "BLOCK",
+      "reason": "Combining an ACE inhibitor with an ARB raises the risk of hyperkalaemia, hypotension and renal impairment.",
+      "source": {
+        "document": "Nigeria Standard Treatment Guidelines, 3rd ed. (Federal Ministry of Health, 2022)",
+        "printed_page": 3,
+        "statement": "There is increased risk of hyperkalaemia, hypotension, and impaired renal function when angiotensin-II receptor antagonists are taken with ACE Inhibitors"
+      }
+    },
+    {
+      "id": "CR17",
+      "type": "DRUG_DRUG_CONFLICT",
+      "drugs": [
+        "potassium_chloride"
+      ],
+      "conflicts_with": [
+        "spironolactone"
+      ],
+      "action": "BLOCK",
+      "reason": "Potassium supplements with potassium-sparing diuretics cause hyperkalaemia.",
+      "source": {
+        "document": "Nigeria Standard Treatment Guidelines, 3rd ed. (Federal Ministry of Health, 2022)",
+        "printed_page": 15,
+        "statement": "Unless there is a compelling indication, do not combine potassium supplements with potassium-sparing drugs"
+      }
+    },
+    {
+      "id": "CR18",
+      "type": "DRUG_DRUG_CONFLICT",
+      "drugs": [
+        "dolutegravir"
+      ],
+      "conflicts_with": [
+        "carbamazepine",
+        "phenytoin",
+        "phenobarbital",
+        "rifampicin",
+        "nevirapine"
+      ],
+      "action": "BLOCK",
+      "reason": "These medicines lower dolutegravir levels and risk HIV treatment failure.",
+      "source": {
+        "document": "Nigeria Standard Treatment Guidelines, 3rd ed. (Federal Ministry of Health, 2022)",
+        "printed_page": 236,
+        "statement": "Avoid co-administration of DTG with carbamazepine, nevirapine, phenytoin, phenobarbitone, rifampicin, dofetilide"
+      }
+    },
+    {
+      "id": "CR19",
+      "type": "DRUG_DRUG_CONFLICT",
+      "drugs": [
+        "heparin"
+      ],
+      "conflicts_with": [
+        "streptokinase"
+      ],
+      "action": "BLOCK",
+      "reason": "Heparin should not be given together with streptokinase (bleeding risk).",
+      "source": {
+        "document": "Nigeria Standard Treatment Guidelines, 3rd ed. (Federal Ministry of Health, 2022)",
+        "printed_page": 3,
+        "statement": "Heparin should not be given with streptokinase"
+      }
+    }
+  ]
+}

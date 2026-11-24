@@ -1,0 +1,162 @@
+[
+  {
+    "test_id": "TC-FR3-01",
+    "patient_id": "pat_01",
+    "proposed_drugs": [
+      "propranolol"
+    ],
+    "proposed_diagnoses": [],
+    "treat_as_disputed": [],
+    "expected": "BLOCK:CR01",
+    "description": "Asthma recorded at Hospital A; Dr Bello (Hospital B) prescribes propranolol"
+  },
+  {
+    "test_id": "TC-FR3-02",
+    "patient_id": "pat_02",
+    "proposed_drugs": [
+      "losartan"
+    ],
+    "proposed_diagnoses": [],
+    "treat_as_disputed": [],
+    "expected": "BLOCK:CR16",
+    "description": "Patient already on lisinopril; losartan added"
+  },
+  {
+    "test_id": "TC-FR3-03",
+    "patient_id": "pat_03",
+    "proposed_drugs": [
+      "artemether_lumefantrine",
+      "paracetamol"
+    ],
+    "proposed_diagnoses": [
+      "malaria"
+    ],
+    "treat_as_disputed": [],
+    "expected": "ALLOW",
+    "description": "Clean history; safe prescription must be ALLOWED"
+  },
+  {
+    "test_id": "TC-FR3-04",
+    "patient_id": "pat_07",
+    "proposed_drugs": [
+      "lisinopril"
+    ],
+    "proposed_diagnoses": [],
+    "treat_as_disputed": [],
+    "expected": "BLOCK:CR04",
+    "description": "Pregnant patient; ACE inhibitor prescribed"
+  },
+  {
+    "test_id": "TC-FR3-05",
+    "patient_id": "pat_07",
+    "proposed_drugs": [
+      "nifedipine"
+    ],
+    "proposed_diagnoses": [],
+    "treat_as_disputed": [],
+    "expected": "ALLOW",
+    "description": "Same patient; a pregnancy-safe alternative must be ALLOWED"
+  },
+  {
+    "test_id": "TC-FR3-06",
+    "patient_id": "pat_05",
+    "proposed_drugs": [
+      "ibuprofen"
+    ],
+    "proposed_diagnoses": [],
+    "treat_as_disputed": [],
+    "expected": "BLOCK:CR03",
+    "description": "Before dispute: ulcer diagnosis is ACTIVE, NSAID blocked"
+  },
+  {
+    "test_id": "TC-FR3-07",
+    "patient_id": "pat_05",
+    "proposed_drugs": [
+      "ibuprofen"
+    ],
+    "proposed_diagnoses": [],
+    "treat_as_disputed": [
+      "rec_0011"
+    ],
+    "expected": "ALLOW",
+    "description": "After dispute (TC-FR4-01): ulcer record is DISPUTED, NSAID now ALLOWED"
+  },
+  {
+    "test_id": "TC-FR3-08",
+    "patient_id": "pat_09",
+    "proposed_drugs": [
+      "acetazolamide"
+    ],
+    "proposed_diagnoses": [
+      "glaucoma"
+    ],
+    "treat_as_disputed": [],
+    "expected": "BLOCK:CR14",
+    "description": "Sickle cell disease; acetazolamide prescribed"
+  },
+  {
+    "test_id": "TC-FR3-09",
+    "patient_id": "pat_10",
+    "proposed_drugs": [
+      "rifampicin"
+    ],
+    "proposed_diagnoses": [
+      "pulmonary_tuberculosis"
+    ],
+    "treat_as_disputed": [],
+    "expected": "BLOCK:CR18",
+    "description": "On dolutegravir; rifampicin prescribed"
+  },
+  {
+    "test_id": "TC-FR3-10",
+    "patient_id": "pat_10",
+    "proposed_drugs": [
+      "metformin"
+    ],
+    "proposed_diagnoses": [
+      "type_2_diabetes"
+    ],
+    "treat_as_disputed": [],
+    "expected": "BLOCK:CR11",
+    "description": "Chronic kidney disease; metformin prescribed"
+  },
+  {
+    "test_id": "TC-FR3-11",
+    "patient_id": "pat_03",
+    "proposed_drugs": [
+      "diclofenac"
+    ],
+    "proposed_diagnoses": [
+      "peptic_ulcer_disease"
+    ],
+    "treat_as_disputed": [],
+    "expected": "BLOCK:CR03",
+    "description": "Conflict with the diagnosis entered in the SAME submission"
+  },
+  {
+    "test_id": "TC-FR3-12",
+    "patient_id": "pat_04",
+    "proposed_drugs": [
+      "dolutegravir"
+    ],
+    "proposed_diagnoses": [
+      "hiv_infection"
+    ],
+    "treat_as_disputed": [],
+    "expected": "BLOCK:CR18",
+    "description": "Reverse direction: patient on carbamazepine, dolutegravir prescribed"
+  },
+  {
+    "test_id": "TC-FR3-13",
+    "patient_id": "pat_08",
+    "proposed_drugs": [
+      "ciprofloxacin"
+    ],
+    "proposed_diagnoses": [
+      "urinary_tract_infection"
+    ],
+    "treat_as_disputed": [],
+    "expected": "ALLOW",
+    "description": "No conflicting history; must be ALLOWED"
+  }
+]

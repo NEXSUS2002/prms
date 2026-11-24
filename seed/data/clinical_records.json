@@ -1,0 +1,833 @@
+[
+  {
+    "id": "rec_0001",
+    "patient_id": "pat_01",
+    "hospital_id": "hosp_a",
+    "author_id": "usr_nurse_ojo",
+    "record_type": "observation",
+    "diagnosis": [],
+    "prescribed_medications": [],
+    "notes": "Triage: wheeze, short of breath on exertion.",
+    "vitals": {
+      "temperature_c": 36.9,
+      "pulse_bpm": 96,
+      "respiratory_rate": 24,
+      "blood_pressure": "118/76",
+      "spo2_percent": 94
+    },
+    "timestamp": "2025-02-10T08:40:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "record_hash": "fe532e2aad2b60d900428158a73e415828e42e976906f84d9f69321cc5bdf7f4",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0002",
+    "patient_id": "pat_01",
+    "hospital_id": "hosp_a",
+    "author_id": "usr_dr_adebayo",
+    "record_type": "consultation",
+    "diagnosis": [
+      "asthma"
+    ],
+    "prescribed_medications": [
+      {
+        "drug": "salbutamol",
+        "dose": "100 mcg, 2 puffs",
+        "frequency": "as needed",
+        "duration": "ongoing",
+        "ongoing": true
+      }
+    ],
+    "notes": "Recurrent nocturnal wheeze since childhood. Peak flow reduced. Diagnosed bronchial asthma.",
+    "vitals": null,
+    "timestamp": "2025-02-10T09:15:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "fe532e2aad2b60d900428158a73e415828e42e976906f84d9f69321cc5bdf7f4",
+    "record_hash": "445d11047c863fbab752a0f4375b4d073d4219a91c5105e3cd5516f4d4966a3f",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0003",
+    "patient_id": "pat_01",
+    "hospital_id": "hosp_a",
+    "author_id": "usr_dr_adebayo",
+    "record_type": "consultation",
+    "diagnosis": [
+      "upper_respiratory_infection"
+    ],
+    "prescribed_medications": [
+      {
+        "drug": "paracetamol",
+        "dose": "1 g",
+        "frequency": "8 hourly",
+        "duration": "3 days",
+        "ongoing": false
+      }
+    ],
+    "notes": "Sore throat and cough for 2 days. Chest clear.",
+    "vitals": null,
+    "timestamp": "2025-08-04T10:05:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "445d11047c863fbab752a0f4375b4d073d4219a91c5105e3cd5516f4d4966a3f",
+    "record_hash": "4690bf2f0537771db79902a261c6365c791beedcec19b687b403c3ff5fde2e59",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0004",
+    "patient_id": "pat_02",
+    "hospital_id": "hosp_a",
+    "author_id": "usr_dr_adebayo",
+    "record_type": "consultation",
+    "diagnosis": [
+      "hypertension"
+    ],
+    "prescribed_medications": [
+      {
+        "drug": "lisinopril",
+        "dose": "10 mg",
+        "frequency": "once daily",
+        "duration": "ongoing",
+        "ongoing": true
+      },
+      {
+        "drug": "amlodipine",
+        "dose": "5 mg",
+        "frequency": "once daily",
+        "duration": "ongoing",
+        "ongoing": true
+      }
+    ],
+    "notes": "BP 168/102 on three visits. Commenced antihypertensives.",
+    "vitals": null,
+    "timestamp": "2024-11-18T11:00:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "record_hash": "058e8d42e68f134ab687b3e84fafa2877f6e92d21e8bb9e13f05bf4f22ef5b4e",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0005",
+    "patient_id": "pat_02",
+    "hospital_id": "hosp_a",
+    "author_id": "usr_nurse_ojo",
+    "record_type": "observation",
+    "diagnosis": [],
+    "prescribed_medications": [],
+    "notes": "Routine BP check.",
+    "vitals": {
+      "temperature_c": 36.6,
+      "pulse_bpm": 78,
+      "respiratory_rate": 16,
+      "blood_pressure": "146/92",
+      "spo2_percent": 98
+    },
+    "timestamp": "2025-06-02T08:20:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "058e8d42e68f134ab687b3e84fafa2877f6e92d21e8bb9e13f05bf4f22ef5b4e",
+    "record_hash": "3d4e026855e07d6e94639c7f6231f3434a54d4ce5282b9c0a4640909d9e4f436",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0006",
+    "patient_id": "pat_02",
+    "hospital_id": "hosp_b",
+    "author_id": "usr_dr_bello",
+    "record_type": "consultation",
+    "diagnosis": [
+      "osteoarthritis"
+    ],
+    "prescribed_medications": [
+      {
+        "drug": "paracetamol",
+        "dose": "1 g",
+        "frequency": "8 hourly",
+        "duration": "2 weeks",
+        "ongoing": false
+      }
+    ],
+    "notes": "Bilateral knee pain, crepitus. BP still above target.",
+    "vitals": null,
+    "timestamp": "2026-01-14T13:30:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "3d4e026855e07d6e94639c7f6231f3434a54d4ce5282b9c0a4640909d9e4f436",
+    "record_hash": "51679b8c439cfa1c85b31e0039a3fef7354f196540a88038292f226684d5f22d",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0007",
+    "patient_id": "pat_03",
+    "hospital_id": "hosp_b",
+    "author_id": "usr_dr_bello",
+    "record_type": "consultation",
+    "diagnosis": [
+      "malaria"
+    ],
+    "prescribed_medications": [
+      {
+        "drug": "artemether_lumefantrine",
+        "dose": "80/480 mg",
+        "frequency": "12 hourly",
+        "duration": "3 days",
+        "ongoing": false
+      },
+      {
+        "drug": "paracetamol",
+        "dose": "1 g",
+        "frequency": "8 hourly",
+        "duration": "3 days",
+        "ongoing": false
+      }
+    ],
+    "notes": "Fever and headache, RDT positive.",
+    "vitals": null,
+    "timestamp": "2025-04-22T09:50:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "record_hash": "453ea5c82dd74abb73f59b4566850f5f175bf88bb12b9dd249fa3888026bf315",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0008",
+    "patient_id": "pat_03",
+    "hospital_id": "hosp_b",
+    "author_id": "usr_dr_bello",
+    "record_type": "consultation",
+    "diagnosis": [
+      "anaemia"
+    ],
+    "prescribed_medications": [
+      {
+        "drug": "ferrous_sulfate",
+        "dose": "200 mg",
+        "frequency": "twice daily",
+        "duration": "3 months",
+        "ongoing": false
+      },
+      {
+        "drug": "folic_acid",
+        "dose": "5 mg",
+        "frequency": "once daily",
+        "duration": "3 months",
+        "ongoing": false
+      }
+    ],
+    "notes": "Fatigue. Hb 9.6 g/dL.",
+    "vitals": null,
+    "timestamp": "2025-10-09T15:10:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "453ea5c82dd74abb73f59b4566850f5f175bf88bb12b9dd249fa3888026bf315",
+    "record_hash": "e1a0cc9322d8202d9c1f9dd1c533561ac4e1ce7dcd4213a1cdbcd8f1bf453f2c",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0009",
+    "patient_id": "pat_04",
+    "hospital_id": "hosp_a",
+    "author_id": "usr_dr_adebayo",
+    "record_type": "consultation",
+    "diagnosis": [
+      "epilepsy"
+    ],
+    "prescribed_medications": [
+      {
+        "drug": "carbamazepine",
+        "dose": "200 mg",
+        "frequency": "twice daily",
+        "duration": "ongoing",
+        "ongoing": true
+      }
+    ],
+    "notes": "Generalised tonic-clonic seizures. Documented severe allergy to penicillin (anaphylaxis, 2019).",
+    "vitals": null,
+    "timestamp": "2023-09-05T10:30:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "record_hash": "9740c1240d7872e65d9ccd2c767f7e8148aaa73f361ee66bcc879bc0bef469c0",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0010",
+    "patient_id": "pat_04",
+    "hospital_id": "hosp_a",
+    "author_id": "usr_dr_adebayo",
+    "record_type": "consultation",
+    "diagnosis": [
+      "epilepsy"
+    ],
+    "prescribed_medications": [
+      {
+        "drug": "carbamazepine",
+        "dose": "400 mg",
+        "frequency": "twice daily",
+        "duration": "ongoing",
+        "ongoing": true
+      }
+    ],
+    "notes": "Breakthrough seizure; dose increased. Penicillin allergy reconfirmed.",
+    "vitals": null,
+    "timestamp": "2025-03-17T12:00:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "9740c1240d7872e65d9ccd2c767f7e8148aaa73f361ee66bcc879bc0bef469c0",
+    "record_hash": "09c95c05edbead0754d1adb9192586208a69e5358636b4b59b5066bcae826c78",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0011",
+    "patient_id": "pat_05",
+    "hospital_id": "hosp_a",
+    "author_id": "usr_dr_adebayo",
+    "record_type": "consultation",
+    "diagnosis": [
+      "peptic_ulcer_disease"
+    ],
+    "prescribed_medications": [
+      {
+        "drug": "omeprazole",
+        "dose": "20 mg",
+        "frequency": "once daily",
+        "duration": "4 weeks",
+        "ongoing": false
+      }
+    ],
+    "notes": "Epigastric burning pain after meals. Clinical diagnosis of peptic ulcer disease; no endoscopy done.",
+    "vitals": null,
+    "timestamp": "2025-07-01T09:00:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "record_hash": "665c4a68acf104094048f1322909a4314335324d2a13b54dd910ef68b5fee23c",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0012",
+    "patient_id": "pat_05",
+    "hospital_id": "hosp_a",
+    "author_id": "usr_nurse_ojo",
+    "record_type": "observation",
+    "diagnosis": [],
+    "prescribed_medications": [],
+    "notes": "Triage: epigastric discomfort, no vomiting.",
+    "vitals": {
+      "temperature_c": 36.7,
+      "pulse_bpm": 80,
+      "respiratory_rate": 16,
+      "blood_pressure": "122/78",
+      "spo2_percent": 99
+    },
+    "timestamp": "2025-07-01T08:35:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "665c4a68acf104094048f1322909a4314335324d2a13b54dd910ef68b5fee23c",
+    "record_hash": "9c7d2a829cc7d79fc12bd7b63b1abb3d4c89d2688ea206e6b047fb6c211fe19a",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0013",
+    "patient_id": "pat_05",
+    "hospital_id": "hosp_b",
+    "author_id": "usr_dr_bello",
+    "record_type": "consultation",
+    "diagnosis": [
+      "osteoarthritis"
+    ],
+    "prescribed_medications": [
+      {
+        "drug": "paracetamol",
+        "dose": "1 g",
+        "frequency": "8 hourly",
+        "duration": "2 weeks",
+        "ongoing": false
+      }
+    ],
+    "notes": "Endoscopy (Hospital B, Feb 2026): normal gastric and duodenal mucosa, no ulcer; findings consistent with reflux. Earlier ulcer diagnosis appears incorrect.",
+    "vitals": null,
+    "timestamp": "2026-02-11T10:45:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "9c7d2a829cc7d79fc12bd7b63b1abb3d4c89d2688ea206e6b047fb6c211fe19a",
+    "record_hash": "8ef0a452a4dc29238e983c5b20418a18ad660fc52ac7fdb252d605c35c6e8bf4",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0014",
+    "patient_id": "pat_06",
+    "hospital_id": "hosp_a",
+    "author_id": "usr_dr_adebayo",
+    "record_type": "consultation",
+    "diagnosis": [
+      "pneumonia"
+    ],
+    "prescribed_medications": [
+      {
+        "drug": "amoxicillin",
+        "dose": "500 mg",
+        "frequency": "8 hourly",
+        "duration": "7 days",
+        "ongoing": false
+      },
+      {
+        "drug": "azithromycin",
+        "dose": "500 mg",
+        "frequency": "once daily",
+        "duration": "3 days",
+        "ongoing": false
+      }
+    ],
+    "notes": "Productive cough, fever 5 days, right basal crepitations. FBC and chest X-ray requested.",
+    "vitals": null,
+    "timestamp": "2026-03-02T09:20:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "record_hash": "0110e3f1cb3c825909e33066a135ae80bd46a5ff53ad5438cffa7e393fe598fa",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0015",
+    "patient_id": "pat_06",
+    "hospital_id": "hosp_a",
+    "author_id": "usr_nurse_ojo",
+    "record_type": "observation",
+    "diagnosis": [],
+    "prescribed_medications": [],
+    "notes": "Triage: febrile, coughing.",
+    "vitals": {
+      "temperature_c": 38.6,
+      "pulse_bpm": 104,
+      "respiratory_rate": 22,
+      "blood_pressure": "116/70",
+      "spo2_percent": 95
+    },
+    "timestamp": "2026-03-02T08:50:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "0110e3f1cb3c825909e33066a135ae80bd46a5ff53ad5438cffa7e393fe598fa",
+    "record_hash": "8e91f51948f8e5e0f6df4c9d3d1f971056c166daef4482cb21939b337cbdf550",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0016",
+    "patient_id": "pat_07",
+    "hospital_id": "hosp_a",
+    "author_id": "usr_dr_okafor",
+    "record_type": "consultation",
+    "diagnosis": [
+      "pregnancy",
+      "hypertension"
+    ],
+    "prescribed_medications": [
+      {
+        "drug": "methyldopa",
+        "dose": "250 mg",
+        "frequency": "8 hourly",
+        "duration": "ongoing",
+        "ongoing": true
+      },
+      {
+        "drug": "folic_acid",
+        "dose": "5 mg",
+        "frequency": "once daily",
+        "duration": "ongoing",
+        "ongoing": true
+      }
+    ],
+    "notes": "Gravida 2, 26 weeks. BP 150/98 on admission. Admitted to medical ward for monitoring.",
+    "vitals": null,
+    "timestamp": "2026-03-20T07:45:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "record_hash": "dabbec09417d00ebdfef5f7657a5a612ad2658dc8d7ba8da5bfdd94794f2c862",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0017",
+    "patient_id": "pat_07",
+    "hospital_id": "hosp_a",
+    "author_id": "usr_nurse_ojo",
+    "record_type": "observation",
+    "diagnosis": [],
+    "prescribed_medications": [],
+    "notes": "Admission vitals. No headache or visual disturbance.",
+    "vitals": {
+      "temperature_c": 36.8,
+      "pulse_bpm": 88,
+      "respiratory_rate": 18,
+      "blood_pressure": "150/98",
+      "spo2_percent": 98
+    },
+    "timestamp": "2026-03-20T08:10:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "dabbec09417d00ebdfef5f7657a5a612ad2658dc8d7ba8da5bfdd94794f2c862",
+    "record_hash": "d5713d697cdade83cd0c5ff655494aedef8d088d65c179b6b4a0a0b41fb2c3c2",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0018",
+    "patient_id": "pat_07",
+    "hospital_id": "hosp_a",
+    "author_id": "usr_nurse_ojo",
+    "record_type": "observation",
+    "diagnosis": [],
+    "prescribed_medications": [],
+    "notes": "Afternoon vitals. Foetal movements felt.",
+    "vitals": {
+      "temperature_c": 36.7,
+      "pulse_bpm": 84,
+      "respiratory_rate": 18,
+      "blood_pressure": "142/92",
+      "spo2_percent": 98
+    },
+    "timestamp": "2026-03-20T14:10:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "d5713d697cdade83cd0c5ff655494aedef8d088d65c179b6b4a0a0b41fb2c3c2",
+    "record_hash": "ec924befa20f98984e6db6bb50efb2036d3b41eeba1cfddd5a44e5433d34b5b3",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0019",
+    "patient_id": "pat_08",
+    "hospital_id": "hosp_a",
+    "author_id": "usr_dr_adebayo",
+    "record_type": "consultation",
+    "diagnosis": [
+      "typhoid_fever"
+    ],
+    "prescribed_medications": [
+      {
+        "drug": "ciprofloxacin",
+        "dose": "500 mg",
+        "frequency": "12 hourly",
+        "duration": "7 days",
+        "ongoing": false
+      }
+    ],
+    "notes": "Fever 6 days. Widal titre 1:160; treated as typhoid.",
+    "vitals": null,
+    "timestamp": "2024-05-13T10:00:00Z",
+    "contradicts_record_id": null,
+    "status": "DISPUTED",
+    "previous_record_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "record_hash": "0e77041640999181b0fea6c6a142a65b3fb1a9df2d5fa3eb4308bfc988779996",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0020",
+    "patient_id": "pat_08",
+    "hospital_id": "hosp_a",
+    "author_id": "usr_dr_adebayo",
+    "record_type": "consultation",
+    "diagnosis": [
+      "hypertension"
+    ],
+    "prescribed_medications": [
+      {
+        "drug": "amlodipine",
+        "dose": "10 mg",
+        "frequency": "once daily",
+        "duration": "ongoing",
+        "ongoing": true
+      }
+    ],
+    "notes": "BP 160/100. Started amlodipine.",
+    "vitals": null,
+    "timestamp": "2024-09-30T11:20:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "0e77041640999181b0fea6c6a142a65b3fb1a9df2d5fa3eb4308bfc988779996",
+    "record_hash": "bb81681ecae3f74678249f3e47ce796ce15ce65bd77f63350c57c4abecccebfb",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0021",
+    "patient_id": "pat_08",
+    "hospital_id": "hosp_b",
+    "author_id": "usr_dr_bello",
+    "record_type": "addendum",
+    "diagnosis": [
+      "malaria"
+    ],
+    "prescribed_medications": [],
+    "notes": "Review of May 2024 episode: blood culture was negative and malaria microscopy from the same week was positive (++). Widal alone is unreliable; episode was malaria, not typhoid.",
+    "vitals": null,
+    "timestamp": "2024-10-21T09:40:00Z",
+    "contradicts_record_id": "rec_0019",
+    "status": "ACTIVE",
+    "previous_record_hash": "bb81681ecae3f74678249f3e47ce796ce15ce65bd77f63350c57c4abecccebfb",
+    "record_hash": "af23bffa97279c35334d4fefe1edf6fb3c572590bd2cad4f6b53ed47dcd7c508",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0022",
+    "patient_id": "pat_08",
+    "hospital_id": "hosp_b",
+    "author_id": "usr_nurse_danjuma",
+    "record_type": "observation",
+    "diagnosis": [],
+    "prescribed_medications": [],
+    "notes": "BP check before clinic.",
+    "vitals": {
+      "temperature_c": 36.5,
+      "pulse_bpm": 74,
+      "respiratory_rate": 16,
+      "blood_pressure": "138/86",
+      "spo2_percent": 99
+    },
+    "timestamp": "2025-12-03T08:15:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "af23bffa97279c35334d4fefe1edf6fb3c572590bd2cad4f6b53ed47dcd7c508",
+    "record_hash": "7c9b3ad551b47fe074e386163b7c80c2d884efb4b1cb69e924bcb469ac0559e4",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0023",
+    "patient_id": "pat_08",
+    "hospital_id": "hosp_b",
+    "author_id": "usr_dr_bello",
+    "record_type": "consultation",
+    "diagnosis": [
+      "type_2_diabetes"
+    ],
+    "prescribed_medications": [
+      {
+        "drug": "metformin",
+        "dose": "500 mg",
+        "frequency": "twice daily",
+        "duration": "ongoing",
+        "ongoing": true
+      }
+    ],
+    "notes": "Fasting glucose 8.9 and 9.4 mmol/L. Commenced metformin.",
+    "vitals": null,
+    "timestamp": "2025-12-03T09:00:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "7c9b3ad551b47fe074e386163b7c80c2d884efb4b1cb69e924bcb469ac0559e4",
+    "record_hash": "cca33f653f395436cbc081758173bd7eed2f236475231466d28b43de8d17e673",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0024",
+    "patient_id": "pat_09",
+    "hospital_id": "hosp_a",
+    "author_id": "usr_dr_adebayo",
+    "record_type": "consultation",
+    "diagnosis": [
+      "sickle_cell_disease"
+    ],
+    "prescribed_medications": [
+      {
+        "drug": "folic_acid",
+        "dose": "5 mg",
+        "frequency": "once daily",
+        "duration": "ongoing",
+        "ongoing": true
+      },
+      {
+        "drug": "hydroxyurea",
+        "dose": "500 mg",
+        "frequency": "once daily",
+        "duration": "ongoing",
+        "ongoing": true
+      }
+    ],
+    "notes": "HbSS confirmed on electrophoresis. Routine clinic.",
+    "vitals": null,
+    "timestamp": "2022-06-15T10:10:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "record_hash": "96c0dbacfec0ee801a9a3ae0cfa306f9196c999361aba0d62798521abcca13ed",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0025",
+    "patient_id": "pat_09",
+    "hospital_id": "hosp_a",
+    "author_id": "usr_dr_okafor",
+    "record_type": "consultation",
+    "diagnosis": [
+      "sickle_cell_disease"
+    ],
+    "prescribed_medications": [
+      {
+        "drug": "paracetamol",
+        "dose": "1 g",
+        "frequency": "6 hourly",
+        "duration": "5 days",
+        "ongoing": false
+      }
+    ],
+    "notes": "Vaso-occlusive crisis, bone pain. Managed with fluids and analgesia.",
+    "vitals": null,
+    "timestamp": "2025-11-08T22:30:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "96c0dbacfec0ee801a9a3ae0cfa306f9196c999361aba0d62798521abcca13ed",
+    "record_hash": "874cd82bfcb6f83411ca8bdfca3cb54479aec16a0ea06ec12eb8bcf7fb68905d",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0026",
+    "patient_id": "pat_09",
+    "hospital_id": "hosp_a",
+    "author_id": "usr_nurse_ojo",
+    "record_type": "observation",
+    "diagnosis": [],
+    "prescribed_medications": [],
+    "notes": "Triage: severe limb pain, pain score 8/10.",
+    "vitals": {
+      "temperature_c": 37.4,
+      "pulse_bpm": 108,
+      "respiratory_rate": 22,
+      "blood_pressure": "110/68",
+      "spo2_percent": 96
+    },
+    "timestamp": "2025-11-08T22:05:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "874cd82bfcb6f83411ca8bdfca3cb54479aec16a0ea06ec12eb8bcf7fb68905d",
+    "record_hash": "a5d09a9c234ec7d26ac2a2849a9f90c588419e341da6fa27153fa84b455933d8",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0027",
+    "patient_id": "pat_10",
+    "hospital_id": "hosp_b",
+    "author_id": "usr_dr_bello",
+    "record_type": "consultation",
+    "diagnosis": [
+      "hiv_infection"
+    ],
+    "prescribed_medications": [
+      {
+        "drug": "tenofovir_lamivudine",
+        "dose": "300/300 mg",
+        "frequency": "once daily",
+        "duration": "ongoing",
+        "ongoing": true
+      },
+      {
+        "drug": "dolutegravir",
+        "dose": "50 mg",
+        "frequency": "once daily",
+        "duration": "ongoing",
+        "ongoing": true
+      }
+    ],
+    "notes": "Newly diagnosed. Baseline CD4 310. Started first-line ART.",
+    "vitals": null,
+    "timestamp": "2023-03-09T10:00:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "record_hash": "475b6eb14039d4ac8a7705244f5426b9c42911c23626be889013cf3de7773d27",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0028",
+    "patient_id": "pat_10",
+    "hospital_id": "hosp_b",
+    "author_id": "usr_dr_bello",
+    "record_type": "consultation",
+    "diagnosis": [
+      "chronic_kidney_disease"
+    ],
+    "prescribed_medications": [],
+    "notes": "eGFR 38 mL/min on two occasions three months apart. CKD stage 3b.",
+    "vitals": null,
+    "timestamp": "2025-09-16T11:30:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "475b6eb14039d4ac8a7705244f5426b9c42911c23626be889013cf3de7773d27",
+    "record_hash": "6c24358ed9a386493afd5fea2a5190d26aca7e880ceca50b5d57ca56b78a9f46",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0029",
+    "patient_id": "pat_10",
+    "hospital_id": "hosp_b",
+    "author_id": "usr_nurse_danjuma",
+    "record_type": "observation",
+    "diagnosis": [],
+    "prescribed_medications": [],
+    "notes": "Triage: cough 3 weeks, night sweats, weight loss.",
+    "vitals": {
+      "temperature_c": 37.9,
+      "pulse_bpm": 98,
+      "respiratory_rate": 22,
+      "blood_pressure": "124/80",
+      "spo2_percent": 95
+    },
+    "timestamp": "2026-04-01T08:25:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "6c24358ed9a386493afd5fea2a5190d26aca7e880ceca50b5d57ca56b78a9f46",
+    "record_hash": "d3eb7e9c398036a626241a35f91aef8c2dc03df700ff3b6903983fd2b72b16bc",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0030",
+    "patient_id": "pat_09",
+    "hospital_id": "hosp_a",
+    "author_id": "usr_dr_okafor",
+    "record_type": "consultation",
+    "diagnosis": [
+      "sickle_cell_disease"
+    ],
+    "prescribed_medications": [
+      {
+        "drug": "paracetamol",
+        "dose": "1 g",
+        "frequency": "6 hourly",
+        "duration": "5 days",
+        "ongoing": false
+      }
+    ],
+    "notes": "Vaso-occlusive crisis, back and limb pain. Admitted to medical ward for fluids and analgesia.",
+    "vitals": null,
+    "timestamp": "2026-03-19T21:40:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "a5d09a9c234ec7d26ac2a2849a9f90c588419e341da6fa27153fa84b455933d8",
+    "record_hash": "35b23e5ebef5b37c7bafa98836e1e149b9456d78d25a69549c262d49036e902b",
+    "tx_hash": null
+  },
+  {
+    "id": "rec_0031",
+    "patient_id": "pat_09",
+    "hospital_id": "hosp_a",
+    "author_id": "usr_nurse_ojo",
+    "record_type": "observation",
+    "diagnosis": [],
+    "prescribed_medications": [],
+    "notes": "Pain score 4/10, improving. Drinking well.",
+    "vitals": {
+      "temperature_c": 37.1,
+      "pulse_bpm": 92,
+      "respiratory_rate": 18,
+      "blood_pressure": "112/70",
+      "spo2_percent": 97
+    },
+    "timestamp": "2026-03-20T15:30:00Z",
+    "contradicts_record_id": null,
+    "status": "ACTIVE",
+    "previous_record_hash": "35b23e5ebef5b37c7bafa98836e1e149b9456d78d25a69549c262d49036e902b",
+    "record_hash": "9ebbb0f4f66c92984efcdc2d8ff26ceeff6620219469c640c7ffb386b633132a",
+    "tx_hash": null
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "dep_a_chemical_pathology",
+    "hospital_id": "hosp_a",
+    "name": "Chemical Pathology",
+    "type": "LABORATORY",
+    "accepts_outside_requisitions": false,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_a_haematology",
+    "hospital_id": "hosp_a",
+    "name": "Haematology",
+    "type": "LABORATORY",
+    "accepts_outside_requisitions": true,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_a_medical_microbiology",
+    "hospital_id": "hosp_a",
+    "name": "Medical Microbiology",
+    "type": "LABORATORY",
+    "accepts_outside_requisitions": true,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_a_radiology",
+    "hospital_id": "hosp_a",
+    "name": "Radiology",
+    "type": "LABORATORY",
+    "accepts_outside_requisitions": true,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_a_emergency_medicine",
+    "hospital_id": "hosp_a",
+    "name": "Emergency Medicine",
+    "type": "CLINICAL",
+    "accepts_outside_requisitions": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_a_general_medicine",
+    "hospital_id": "hosp_a",
+    "name": "General Medicine",
+    "type": "CLINICAL",
+    "accepts_outside_requisitions": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_a_internal_medicine",
+    "hospital_id": "hosp_a",
+    "name": "Internal Medicine",
+    "type": "CLINICAL",
+    "accepts_outside_requisitions": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_a_paediatrics",
+    "hospital_id": "hosp_a",
+    "name": "Paediatrics",
+    "type": "CLINICAL",
+    "accepts_outside_requisitions": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_a_medical_ward",
+    "hospital_id": "hosp_a",
+    "name": "Medical Ward",
+    "type": "WARD",
+    "accepts_outside_requisitions": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_b_haematology",
+    "hospital_id": "hosp_b",
+    "name": "Haematology",
+    "type": "LABORATORY",
+    "accepts_outside_requisitions": true,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_b_general_medicine",
+    "hospital_id": "hosp_b",
+    "name": "General Medicine",
+    "type": "CLINICAL",
+    "accepts_outside_requisitions": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_b_internal_medicine",
+    "hospital_id": "hosp_b",
+    "name": "Internal Medicine",
+    "type": "CLINICAL",
+    "accepts_outside_requisitions": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_b_emergency_ward",
+    "hospital_id": "hosp_b",
+    "name": "Emergency Ward",
+    "type": "WARD",
+    "accepts_outside_requisitions": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_c_haematology",
+    "hospital_id": "hosp_c",
+    "name": "Haematology",
+    "type": "LABORATORY",
+    "accepts_outside_requisitions": true,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_c_medical_microbiology",
+    "hospital_id": "hosp_c",
+    "name": "Medical Microbiology",
+    "type": "LABORATORY",
+    "accepts_outside_requisitions": true,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_c_internal_medicine",
+    "hospital_id": "hosp_c",
+    "name": "Internal Medicine",
+    "type": "CLINICAL",
+    "accepts_outside_requisitions": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_c_medical_ward",
+    "hospital_id": "hosp_c",
+    "name": "Medical Ward",
+    "type": "WARD",
+    "accepts_outside_requisitions": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_d_haematology",
+    "hospital_id": "hosp_d",
+    "name": "Haematology",
+    "type": "LABORATORY",
+    "accepts_outside_requisitions": true,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_d_paediatrics",
+    "hospital_id": "hosp_d",
+    "name": "Paediatrics",
+    "type": "CLINICAL",
+    "accepts_outside_requisitions": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_d_childrens_ward",
+    "hospital_id": "hosp_d",
+    "name": "Children's Ward",
+    "type": "WARD",
+    "accepts_outside_requisitions": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_e_haematology",
+    "hospital_id": "hosp_e",
+    "name": "Haematology",
+    "type": "LABORATORY",
+    "accepts_outside_requisitions": true,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_e_histopathology",
+    "hospital_id": "hosp_e",
+    "name": "Histopathology",
+    "type": "LABORATORY",
+    "accepts_outside_requisitions": true,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_e_radiology",
+    "hospital_id": "hosp_e",
+    "name": "Radiology",
+    "type": "LABORATORY",
+    "accepts_outside_requisitions": true,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_e_surgery",
+    "hospital_id": "hosp_e",
+    "name": "Surgery",
+    "type": "CLINICAL",
+    "accepts_outside_requisitions": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_e_surgical_ward",
+    "hospital_id": "hosp_e",
+    "name": "Surgical Ward",
+    "type": "WARD",
+    "accepts_outside_requisitions": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_f_haematology",
+    "hospital_id": "hosp_f",
+    "name": "Haematology",
+    "type": "LABORATORY",
+    "accepts_outside_requisitions": false,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_f_general_medicine",
+    "hospital_id": "hosp_f",
+    "name": "General Medicine",
+    "type": "CLINICAL",
+    "accepts_outside_requisitions": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_f_medical_ward",
+    "hospital_id": "hosp_f",
+    "name": "Medical Ward",
+    "type": "WARD",
+    "accepts_outside_requisitions": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_g_haematology",
+    "hospital_id": "hosp_g",
+    "name": "Haematology",
+    "type": "LABORATORY",
+    "accepts_outside_requisitions": true,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_g_obstetrics_gynaecology",
+    "hospital_id": "hosp_g",
+    "name": "Obstetrics and Gynaecology",
+    "type": "CLINICAL",
+    "accepts_outside_requisitions": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_g_maternity_ward",
+    "hospital_id": "hosp_g",
+    "name": "Maternity Ward",
+    "type": "WARD",
+    "accepts_outside_requisitions": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_h_haematology",
+    "hospital_id": "hosp_h",
+    "name": "Haematology",
+    "type": "LABORATORY",
+    "accepts_outside_requisitions": false,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_h_radiology",
+    "hospital_id": "hosp_h",
+    "name": "Radiology",
+    "type": "LABORATORY",
+    "accepts_outside_requisitions": false,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_h_general_medicine",
+    "hospital_id": "hosp_h",
+    "name": "General Medicine",
+    "type": "CLINICAL",
+    "accepts_outside_requisitions": null,
+    "status": "ACTIVE"
+  },
+  {
+    "id": "dep_h_medical_ward",
+    "hospital_id": "hosp_h",
+    "name": "Medical Ward",
+    "type": "WARD",
+    "accepts_outside_requisitions": null,
+    "status": "ACTIVE"
+  }
+]

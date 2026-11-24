@@ -1,0 +1,50 @@
+[
+  {
+    "id": "adm_0001",
+    "patient_id": "pat_09",
+    "hospital_id": "hosp_a",
+    "department_id": "dep_a_medical_ward",
+    "bed": "05",
+    "reason": "Sickle cell vaso-occlusive crisis",
+    "admitted_by": "usr_dr_okafor",
+    "admitted_at": "2025-11-08T22:40:00Z",
+    "discharged_at": "2025-11-12T10:00:00Z",
+    "status": "DISCHARGED"
+  },
+  {
+    "id": "adm_0002",
+    "patient_id": "pat_06",
+    "hospital_id": "hosp_a",
+    "department_id": "dep_a_medical_ward",
+    "bed": "07",
+    "reason": "Community-acquired pneumonia",
+    "admitted_by": "usr_dr_adebayo",
+    "admitted_at": "2026-03-02T09:40:00Z",
+    "discharged_at": null,
+    "status": "ADMITTED"
+  },
+  {
+    "id": "adm_0003",
+    "patient_id": "pat_09",
+    "hospital_id": "hosp_a",
+    "department_id": "dep_a_medical_ward",
+    "bed": "02",
+    "reason": "Sickle cell vaso-occlusive crisis",
+    "admitted_by": "usr_dr_okafor",
+    "admitted_at": "2026-03-19T21:50:00Z",
+    "discharged_at": null,
+    "status": "ADMITTED"
+  },
+  {
+    "id": "adm_0004",
+    "patient_id": "pat_07",
+    "hospital_id": "hosp_a",
+    "department_id": "dep_a_medical_ward",
+    "bed": "04",
+    "reason": "Hypertension in pregnancy, 26 weeks",
+    "admitted_by": "usr_dr_okafor",
+    "admitted_at": "2026-03-20T07:50:00Z",
+    "discharged_at": null,
+    "status": "ADMITTED"
+  }
+]

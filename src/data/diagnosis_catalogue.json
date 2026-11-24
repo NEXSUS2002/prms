@@ -1,0 +1,102 @@
+[
+  {
+    "id": "asthma",
+    "name": "Asthma"
+  },
+  {
+    "id": "peptic_ulcer_disease",
+    "name": "Peptic ulcer disease"
+  },
+  {
+    "id": "pregnancy",
+    "name": "Pregnancy"
+  },
+  {
+    "id": "chronic_kidney_disease",
+    "name": "Chronic kidney disease"
+  },
+  {
+    "id": "chronic_liver_disease",
+    "name": "Chronic liver disease"
+  },
+  {
+    "id": "glaucoma",
+    "name": "Glaucoma"
+  },
+  {
+    "id": "benign_prostatic_hyperplasia",
+    "name": "Benign prostatic hyperplasia"
+  },
+  {
+    "id": "sickle_cell_disease",
+    "name": "Sickle cell disease"
+  },
+  {
+    "id": "heart_block",
+    "name": "Heart block"
+  },
+  {
+    "id": "psychotic_disorder",
+    "name": "Psychotic disorder"
+  },
+  {
+    "id": "hypertension",
+    "name": "Hypertension"
+  },
+  {
+    "id": "type_2_diabetes",
+    "name": "Type 2 diabetes mellitus"
+  },
+  {
+    "id": "malaria",
+    "name": "Uncomplicated malaria"
+  },
+  {
+    "id": "typhoid_fever",
+    "name": "Typhoid fever"
+  },
+  {
+    "id": "epilepsy",
+    "name": "Epilepsy"
+  },
+  {
+    "id": "hiv_infection",
+    "name": "HIV infection"
+  },
+  {
+    "id": "pulmonary_tuberculosis",
+    "name": "Pulmonary tuberculosis"
+  },
+  {
+    "id": "gastro_oesophageal_reflux",
+    "name": "Gastro-oesophageal reflux disease"
+  },
+  {
+    "id": "urinary_tract_infection",
+    "name": "Urinary tract infection"
+  },
+  {
+    "id": "pneumonia",
+    "name": "Community-acquired pneumonia"
+  },
+  {
+    "id": "osteoarthritis",
+    "name": "Osteoarthritis"
+  },
+  {
+    "id": "upper_respiratory_infection",
+    "name": "Upper respiratory tract infection"
+  },
+  {
+    "id": "head_injury",
+    "name": "Head injury (road traffic accident)"
+  },
+  {
+    "id": "anaemia",
+    "name": "Iron-deficiency anaemia"
+  },
+  {
+    "id": "acute_gastroenteritis",
+    "name": "Acute gastroenteritis"
+  }
+]

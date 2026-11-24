@@ -1,0 +1,37 @@
+[
+  {
+    "id": "app_0009",
+    "reference": "HSP-APP-0009",
+    "name": "Lakeside District Hospital (fictional)",
+    "city": "Abuja",
+    "state": "Federal Capital Territory",
+    "level": "secondary",
+    "facility_registration_no": "FCT/HF/SEED/0457",
+    "laboratory_departments": [
+      "Haematology",
+      "Radiology"
+    ],
+    "hospital_id": null,
+    "admin_name": "Hauwa Mohammed",
+    "admin_email": "h.mohammed@prms.test",
+    "admin_wallet": null,
+    "status": "AWAITING_REVIEW",
+    "note": "Approved live in TC-FR9-01"
+  },
+  {
+    "id": "app_0010",
+    "reference": "HSP-APP-0010",
+    "name": "Riverbend Clinic (fictional)",
+    "city": "Lokoja",
+    "state": "Kogi",
+    "level": "primary",
+    "facility_registration_no": "KG/HF/SEED/0112",
+    "laboratory_departments": [],
+    "hospital_id": null,
+    "admin_name": "Sunday Ameh",
+    "admin_email": "s.ameh@prms.test",
+    "admin_wallet": "SAME AS hosp_c admin_wallet",
+    "status": "AWAITING_REVIEW",
+    "note": "Must be rejected in TC-FR9-02: wallet already bound to another hospital"
+  }
+]

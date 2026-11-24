@@ -1,0 +1,308 @@
+[
+  {
+    "id": "propranolol",
+    "name": "Propranolol",
+    "class": "beta_blocker",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "atenolol",
+    "name": "Atenolol",
+    "class": "beta_blocker",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "bisoprolol",
+    "name": "Bisoprolol",
+    "class": "beta_blocker",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "carvedilol",
+    "name": "Carvedilol",
+    "class": "beta_blocker",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "timolol",
+    "name": "Timolol eye drops",
+    "class": "beta_blocker_ophthalmic",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "acetylsalicylic_acid",
+    "name": "Acetylsalicylic acid (Aspirin)",
+    "class": "nsaid",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "ibuprofen",
+    "name": "Ibuprofen",
+    "class": "nsaid",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "diclofenac",
+    "name": "Diclofenac",
+    "class": "nsaid",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "naproxen",
+    "name": "Naproxen",
+    "class": "nsaid",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "lisinopril",
+    "name": "Lisinopril",
+    "class": "ace_inhibitor",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "enalapril",
+    "name": "Enalapril",
+    "class": "ace_inhibitor",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "losartan",
+    "name": "Losartan",
+    "class": "arb",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "valsartan",
+    "name": "Valsartan",
+    "class": "arb",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "amlodipine",
+    "name": "Amlodipine",
+    "class": "calcium_channel_blocker",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "nifedipine",
+    "name": "Nifedipine",
+    "class": "calcium_channel_blocker",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "methyldopa",
+    "name": "Methyldopa",
+    "class": "centrally_acting_antihypertensive",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "furosemide",
+    "name": "Furosemide",
+    "class": "loop_diuretic",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "spironolactone",
+    "name": "Spironolactone",
+    "class": "potassium_sparing_diuretic",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "potassium_chloride",
+    "name": "Potassium chloride",
+    "class": "potassium_supplement",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "warfarin",
+    "name": "Warfarin",
+    "class": "anticoagulant",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "heparin",
+    "name": "Heparin",
+    "class": "anticoagulant",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "streptokinase",
+    "name": "Streptokinase",
+    "class": "thrombolytic",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "metformin",
+    "name": "Metformin",
+    "class": "biguanide",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "glibenclamide",
+    "name": "Glibenclamide",
+    "class": "sulphonylurea",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "insulin",
+    "name": "Insulin (soluble)",
+    "class": "insulin",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "sodium_valproate",
+    "name": "Sodium valproate",
+    "class": "antiepileptic",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "carbamazepine",
+    "name": "Carbamazepine",
+    "class": "antiepileptic",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "phenytoin",
+    "name": "Phenytoin",
+    "class": "antiepileptic",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "phenobarbital",
+    "name": "Phenobarbital",
+    "class": "antiepileptic",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "metronidazole",
+    "name": "Metronidazole",
+    "class": "antibiotic",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "tetracycline",
+    "name": "Tetracycline",
+    "class": "antibiotic",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "doxycycline",
+    "name": "Doxycycline",
+    "class": "antibiotic",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "ciprofloxacin",
+    "name": "Ciprofloxacin",
+    "class": "antibiotic",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "amoxicillin",
+    "name": "Amoxicillin",
+    "class": "antibiotic",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "azithromycin",
+    "name": "Azithromycin",
+    "class": "antibiotic",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "rifampicin",
+    "name": "Rifampicin",
+    "class": "antituberculosis",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "methotrexate",
+    "name": "Methotrexate",
+    "class": "antimetabolite",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "trihexyphenidyl",
+    "name": "Trihexyphenidyl (Benzhexol)",
+    "class": "anticholinergic",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "acetazolamide",
+    "name": "Acetazolamide",
+    "class": "carbonic_anhydrase_inhibitor",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "efavirenz",
+    "name": "Efavirenz",
+    "class": "antiretroviral",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "dolutegravir",
+    "name": "Dolutegravir",
+    "class": "antiretroviral",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "nevirapine",
+    "name": "Nevirapine",
+    "class": "antiretroviral",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "tenofovir_lamivudine",
+    "name": "Tenofovir + Lamivudine",
+    "class": "antiretroviral",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "artemether_lumefantrine",
+    "name": "Artemether + Lumefantrine",
+    "class": "antimalarial",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "paracetamol",
+    "name": "Paracetamol",
+    "class": "analgesic",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "omeprazole",
+    "name": "Omeprazole",
+    "class": "proton_pump_inhibitor",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "salbutamol",
+    "name": "Salbutamol inhaler",
+    "class": "bronchodilator",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "prednisolone",
+    "name": "Prednisolone",
+    "class": "corticosteroid",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "hydroxyurea",
+    "name": "Hydroxycarbamide (Hydroxyurea)",
+    "class": "antisickling",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "folic_acid",
+    "name": "Folic acid",
+    "class": "vitamin",
+    "listed_in_neml_2024": true
+  },
+  {
+    "id": "ferrous_sulfate",
+    "name": "Ferrous sulfate",
+    "class": "antianaemic",
+    "listed_in_neml_2024": true
+  }
+]

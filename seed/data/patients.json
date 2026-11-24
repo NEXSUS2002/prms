@@ -1,0 +1,102 @@
+[
+  {
+    "id": "pat_01",
+    "user_id": "usr_pat_01",
+    "global_health_hash": "7056c133aec45ccc76e82cc1108c64126743bfd9770dd99d0210b0f9097abeb7",
+    "blood_group": "O+",
+    "genotype": "AA",
+    "sex": "F",
+    "date_of_birth": "1994-03-12",
+    "scenario": "Asthma recorded at Hospital A; beta-blocker blocked at Hospital B"
+  },
+  {
+    "id": "pat_02",
+    "user_id": "usr_pat_02",
+    "global_health_hash": "a809724a3cecd703ab91a05982bc9479ec8bfefab74214c33c58ef464c3a0694",
+    "blood_group": "A+",
+    "genotype": "AS",
+    "sex": "M",
+    "date_of_birth": "1968-07-30",
+    "scenario": "On lisinopril; adding losartan is blocked (drug-drug)"
+  },
+  {
+    "id": "pat_03",
+    "user_id": "usr_pat_03",
+    "global_health_hash": "44b4111fbf7b6c0ae44a8e697028ecd42f368fff73ce85eb114a15c352bc2de9",
+    "blood_group": "B+",
+    "genotype": "AA",
+    "sex": "F",
+    "date_of_birth": "1989-11-02",
+    "scenario": "Clean history; safe prescription is allowed (negative control)"
+  },
+  {
+    "id": "pat_04",
+    "user_id": "usr_pat_04",
+    "global_health_hash": "4bd1282b912a9f8462c1e1f1158c1f3805372e54586e9c6de1877f7f5da96a70",
+    "blood_group": "O-",
+    "genotype": "AA",
+    "sex": "M",
+    "date_of_birth": "1979-01-19",
+    "scenario": "Unconscious emergency; Glass-Break override"
+  },
+  {
+    "id": "pat_05",
+    "user_id": "usr_pat_05",
+    "global_health_hash": "330447a22fd8a4c15e1a984951344ebdef72fbdf2e3d1a5992c1d1d7338263f6",
+    "blood_group": "AB+",
+    "genotype": "AA",
+    "sex": "F",
+    "date_of_birth": "1985-05-25",
+    "scenario": "Wrong diagnosis at Hospital A; disputed by Hospital B"
+  },
+  {
+    "id": "pat_06",
+    "user_id": "usr_pat_06",
+    "global_health_hash": "8b868b3028e97a1c598cd1a585681ea30e95bab7e164524c2954db28fb736f32",
+    "blood_group": "A-",
+    "genotype": "AS",
+    "sex": "M",
+    "date_of_birth": "1991-09-08",
+    "scenario": "Laboratory requisitions and delegated tokens"
+  },
+  {
+    "id": "pat_07",
+    "user_id": "usr_pat_07",
+    "global_health_hash": "26b08ad0d6d2bfbba064f5f45b99c49acad1f4794de155c662958e69f6f6da7b",
+    "blood_group": "O+",
+    "genotype": "AA",
+    "sex": "F",
+    "date_of_birth": "1997-12-14",
+    "scenario": "Admitted, pregnant; nurse vitals; ACE inhibitor blocked"
+  },
+  {
+    "id": "pat_08",
+    "user_id": "usr_pat_08",
+    "global_health_hash": "c9bdc9760ca7baee0d4a3e6f2708eb2f1de14b16ead5d64ec486e905651a19ea",
+    "blood_group": "B-",
+    "genotype": "AA",
+    "sex": "M",
+    "date_of_birth": "1975-04-03",
+    "scenario": "Consent grant/revoke; multi-hospital timeline with a seeded dispute"
+  },
+  {
+    "id": "pat_09",
+    "user_id": "usr_pat_09",
+    "global_health_hash": "a0dd27694a0608d71751bb7da8fe154c1e6ae4a6e8d85d8386c645b7d419a234",
+    "blood_group": "O+",
+    "genotype": "SS",
+    "sex": "F",
+    "date_of_birth": "2001-08-21",
+    "scenario": "Sickle cell disease; acetazolamide blocked"
+  },
+  {
+    "id": "pat_10",
+    "user_id": "usr_pat_10",
+    "global_health_hash": "c6f5aeaa7c2c2ee00ed9220dcaf3d9a4091145a69e49a334b63255017c7b9916",
+    "blood_group": "A+",
+    "genotype": "AA",
+    "sex": "M",
+    "date_of_birth": "1982-02-27",
+    "scenario": "HIV on dolutegravir + kidney disease; rifampicin and metformin blocked"
+  }
+]

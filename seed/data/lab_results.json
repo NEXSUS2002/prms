@@ -1,0 +1,14 @@
+[
+  {
+    "id": "lrs_0001",
+    "request_id": "lrq_0003",
+    "technician_id": "usr_lab_haem",
+    "result_payload": {
+      "fasting_blood_glucose_mmol_l": 9.1,
+      "hba1c_percent": 8.2,
+      "comment": "Consistent with diabetes mellitus."
+    },
+    "tx_hash": null,
+    "uploaded_at": "2025-12-02T14:20:00Z"
+  }
+]
