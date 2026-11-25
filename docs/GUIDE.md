@@ -15,6 +15,11 @@ is recorded on the ledger by the server's relayer account, which must never be i
 
 The local chain forgets everything when stopped: after restarting `pnpm chain`, run `pnpm bootstrap` again.
 
+**On a phone** there is no MetaMask extension. Reading pages works in any phone browser. To sign, open PRMS inside
+the MetaMask app's own browser: tap **Open in MetaMask** at the top of the page (or open the app's browser and type
+the site address), sign in to PRMS again there, then tap **Connect wallet**. Import the person's private key into the
+MetaMask app first, as on a computer.
+
 ## Guided demonstration (about ten minutes)
 
 1. **Cross-hospital safety (FR3).** As `dr_bello`, open Adaeze Okonkwo, New entry. Hypertension with Propranolol

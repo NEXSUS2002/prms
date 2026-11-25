@@ -6,7 +6,7 @@ import { Badge, Banner, ErrorBanner, Icon } from "~/components/ui";
 import { authClient } from "~/lib/auth-client";
 import { call, messageOf } from "~/lib/call";
 import { shortHash } from "~/lib/format";
-import { connectWallet, hasWallet, signBinding, useWallet } from "~/lib/wallet";
+import { connectWallet, hasWallet, metaMaskAppLink, signBinding, useWallet } from "~/lib/wallet";
 import { bindWallet } from "~/server/api.functions";
 
 export const Route = createFileRoute("/wallet")({
@@ -71,9 +71,19 @@ function WalletPage() {
       </div>
       <ErrorBanner message={error} />
       {!hasWallet() ? (
-        <Banner tone="warn">
-          <b>MetaMask was not found in this browser.</b> Install the MetaMask extension from metamask.io, then reload this page.
-        </Banner>
+        wallet.mobile ? (
+          <Banner tone="warn">
+            <b>On a phone, MetaMask works inside its own app.</b> Open PRMS in the MetaMask app's browser and sign in there
+            again.{" "}
+            <a className="link" href={metaMaskAppLink()}>
+              Open in MetaMask
+            </a>
+          </Banner>
+        ) : (
+          <Banner tone="warn">
+            <b>MetaMask was not found in this browser.</b> Install the MetaMask extension from metamask.io, then reload this page.
+          </Banner>
+        )
       ) : null}
 
       <div className="card stack">

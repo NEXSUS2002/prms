@@ -3,7 +3,7 @@ import { useState } from "react";
 import { authClient } from "~/lib/auth-client";
 import { call, messageOf } from "~/lib/call";
 import { roleLabel, shortHash } from "~/lib/format";
-import { connectWallet, useWallet } from "~/lib/wallet";
+import { connectWallet, metaMaskAppLink, useWallet } from "~/lib/wallet";
 import { setWorkingHospital } from "~/server/api.functions";
 import { useMe, useSession } from "./session";
 import { Icon } from "./ui";
@@ -44,8 +44,29 @@ function WalletPill() {
   // every transaction names the bound wallet as the sender, and MetaMask signs with it.
   const matches = Boolean(bound && wallet.accounts.includes(bound));
   const state = !wallet.installed ? "none" : !wallet.account ? "disconnected" : !onChain ? "network" : !matches ? "account" : "ok";
+  if (state === "none") {
+    // A phone has no MetaMask extension. The MetaMask app's own browser provides the wallet instead, so link there.
+    const mobile = wallet.mobile;
+    return (
+      <a
+        className="wallet"
+        style={{ textDecoration: "none" }}
+        href={mobile ? metaMaskAppLink() : "https://metamask.io/download/"}
+        target={mobile ? undefined : "_blank"}
+        rel="noreferrer"
+        title={
+          mobile
+            ? "Continue in the MetaMask app's browser, where PRMS can reach your wallet. You will sign in to PRMS there again."
+            : "MetaMask was not found in this browser. Install the extension, then reload this page."
+        }
+      >
+        <span className="dot danger" />
+        {mobile ? "Open in MetaMask" : "MetaMask not found"}
+        {bound ? <span className="addr">· {shortHash(bound)}</span> : null}
+      </a>
+    );
+  }
   const text = {
-    none: "MetaMask not found",
     disconnected: "Connect wallet",
     network: `Switch to ${chain.chainName}`,
     account: "Choose account",
@@ -64,7 +85,7 @@ function WalletPill() {
       style={{ cursor: state === "ok" ? "default" : "pointer" }}
       title={note ?? hint}
       onClick={async () => {
-        if (state === "ok" || state === "none") return;
+        if (state === "ok") return;
         try {
           await connectWallet(chain, bound);
           setNote(null);
@@ -73,7 +94,7 @@ function WalletPill() {
         }
       }}
     >
-      <span className={`dot ${state === "ok" ? "" : state === "account" || state === "none" ? "danger" : "warn"}`} />
+      <span className={`dot ${state === "ok" ? "" : state === "account" ? "danger" : "warn"}`} />
       {text}
       {bound ? <span className="addr">· {shortHash(bound)}</span> : null}
     </button>

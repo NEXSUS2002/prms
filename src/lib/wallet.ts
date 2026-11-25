@@ -13,11 +13,35 @@ type Eip1193 = {
 
 function provider(): Eip1193 {
   const eth = (globalThis as unknown as { ethereum?: Eip1193 }).ethereum;
-  if (!eth) throw new Error("MetaMask was not found. Install the MetaMask extension, then reload this page.");
+  if (!eth) {
+    throw new Error(
+      isMobileBrowser()
+        ? 'This phone browser cannot reach MetaMask. Tap "Open in MetaMask" at the top of the page and continue in the MetaMask app.'
+        : "MetaMask was not found. Install the MetaMask extension, then reload this page.",
+    );
+  }
   return eth;
 }
 
 export const hasWallet = () => typeof window !== "undefined" && Boolean((window as unknown as { ethereum?: unknown }).ethereum);
+
+/** True on a phone or tablet, where MetaMask is an app rather than a browser extension. */
+export function isMobileBrowser(): boolean {
+  if (typeof navigator === "undefined") return false;
+  const ua = navigator.userAgent;
+  // iPadOS presents itself as a Mac; its touch screen gives it away.
+  return /Android|iPhone|iPad|iPod|Mobile/i.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+}
+
+/**
+ * A link that opens this page inside the MetaMask app's own browser. MetaMask provides the wallet to pages there
+ * just as the extension does on a computer, so PRMS works unchanged. Without the app, MetaMask's page offers to install it.
+ * Format from MetaMask's documentation: https://link.metamask.io/dapp/{address without https://}.
+ */
+export function metaMaskAppLink(): string {
+  if (typeof window === "undefined") return "https://link.metamask.io/";
+  return `https://link.metamask.io/dapp/${window.location.host}${window.location.pathname}`;
+}
 
 const viemChain = (cfg: ChainConfig) =>
   defineChain({ id: cfg.chainId, name: cfg.chainName, nativeCurrency: { name: "Ether", symbol: "ETH", decimals: 18 }, rpcUrls: { default: { http: [cfg.rpcUrl] } } });
@@ -128,22 +152,29 @@ type WalletState = {
   accounts: string[];
   chainId: number | null;
   installed: boolean;
+  /** a phone or tablet: without MetaMask here, the way in is the MetaMask app's browser */
+  mobile: boolean;
 };
 
 /** The accounts and network MetaMask offers this site right now, kept up to date. */
 export function useWallet() {
-  const [state, setState] = useState<WalletState>({ account: null, accounts: [], chainId: null, installed: false });
+  // `mobile` starts false and is set after the first render, so the page the server sends matches the first render here.
+  const [state, setState] = useState<WalletState>({ account: null, accounts: [], chainId: null, installed: false, mobile: false });
   useEffect(() => {
-    if (!hasWallet()) return;
+    const mobile = isMobileBrowser();
+    if (!hasWallet()) {
+      setState((s) => ({ ...s, mobile }));
+      return;
+    }
     const eth = provider();
     let live = true;
     const refresh = async () => {
       try {
         const accounts = await sharedAccounts(false);
         const chainId = parseInt((await eth.request({ method: "eth_chainId" })) as string, 16);
-        if (live) setState({ account: accounts[0] ?? null, accounts, chainId, installed: true });
+        if (live) setState({ account: accounts[0] ?? null, accounts, chainId, installed: true, mobile });
       } catch {
-        if (live) setState({ account: null, accounts: [], chainId: null, installed: true });
+        if (live) setState({ account: null, accounts: [], chainId: null, installed: true, mobile });
       }
     };
     refresh();
